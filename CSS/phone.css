@@ -1,0 +1,107 @@
+/* only to test media qurrey */
+/* body{
+    background-color: red;
+} */
+
+#navbar{
+    flex-direction: column;
+    height: 120px;
+    
+}
+#navbar::before{
+    width: 700px;
+    height: 38%;
+}
+
+
+#navbar ul li a{
+font-size: 1.2rem;
+padding: 0px 5px;
+    margin: 5px 5px;
+}
+/* Home Section */
+#home{
+    
+    height: 400px;
+
+}
+
+#home p{
+    font-size: 1rem;
+    flex-wrap: wrap;
+}
+
+
+
+#home::before{
+   margin-top: 50px;
+    width: 700px;
+
+    height: 400px;
+}
+
+
+/* Services Section */
+
+#services{
+    flex-direction: column;
+}
+
+#box{
+    height: 400px;
+    width: 80vw;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+#services img{
+    margin: auto;
+    height: 190px;
+    overflow: hidden;
+}
+
+#services::before{
+    height: 1200px;
+}
+
+/* client section */
+#Clients{
+    flex-direction: column;
+
+}
+
+#Clients::before{
+    width: 700px;
+
+}
+
+/* Contact section */
+
+.form-group label,
+.form-group input,
+.form-group ::placeholder{
+
+    width: 200px;
+    height: 25px;
+    font-size: 1.2rem;
+    margin: 3px;
+
+}
+
+.form-group textarea{
+    width: 200px;
+}
+
+#contact-box{
+    width: 150px;
+}
+
+#contact-section::before{
+    height: 400px;
+}
+
+
+/* Utility Classes */
+.h-primary{
+    font-size: 1.75rem;
+}
